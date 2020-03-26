@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>__strong typeof(&lt;#weakSelf#&gt;) strongSelf = &lt;#weakSelf#&gt;;</string>

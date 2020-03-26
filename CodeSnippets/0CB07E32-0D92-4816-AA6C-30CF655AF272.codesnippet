@@ -6,6 +6,7 @@
 	<string>make right to stand</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>

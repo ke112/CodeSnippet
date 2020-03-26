@@ -3,25 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong imageview</string>
+	<string>cycle for </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
+		<string>CodeExpression</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIImageView *&lt;#name#&gt;;</string>
+	<string>for (int i=0; i&lt;&lt;#COUNT#&gt;; i++) {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>22C67362-657C-400D-BFE6-DF7DC07A10FF</string>
+	<string>EBED2A98-5CA3-4F94-8BDF-01BFF7BCAB93</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>声明属性UIImageView</string>
+	<string>for 循环 从0开始</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

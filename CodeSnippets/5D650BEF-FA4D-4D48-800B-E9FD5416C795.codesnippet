@@ -6,6 +6,7 @@
 	<string>strong view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassInterfaceVariables</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>

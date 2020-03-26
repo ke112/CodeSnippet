@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>KKLog(@"&lt;#Log#&gt;");</string>

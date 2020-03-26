@@ -3,25 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong imageview</string>
+	<string>root controller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
 		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIImageView *&lt;#name#&gt;;</string>
+	<string>_window = [[UIWindow alloc]init];
+    _window.backgroundColor = [UIColor whiteColor];
+    _window.rootViewController = &lt;#rootVc#&gt;;
+    [_window makeKeyAndVisible];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>22C67362-657C-400D-BFE6-DF7DC07A10FF</string>
+	<string>33B2C2BD-7255-4132-AE67-D65B384B2A25</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>声明属性UIImageView</string>
+	<string>初始化根视图控制器</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

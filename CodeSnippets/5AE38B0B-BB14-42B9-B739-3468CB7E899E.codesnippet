@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[NSUserDefaults standardUserDefaults]</string>

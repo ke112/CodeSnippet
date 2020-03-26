@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, weak) id&lt;&lt;#protocol#&gt;&gt; &lt;#delegate#&gt;;</string>

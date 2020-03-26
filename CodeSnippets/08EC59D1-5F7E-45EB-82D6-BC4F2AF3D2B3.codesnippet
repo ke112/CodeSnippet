@@ -6,6 +6,7 @@
 	<string>lazy tableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassImplementation</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
@@ -15,6 +16,7 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.backgroundColor = [UIColor whiteColor];
+        _tableView.tableFooterView = [[UIView alloc]init];
         if (@available(iOS 11,*)) {
             _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }

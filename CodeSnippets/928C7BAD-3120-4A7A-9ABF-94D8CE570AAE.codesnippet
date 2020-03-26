@@ -3,9 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init button</string>
+	<string>create button</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
