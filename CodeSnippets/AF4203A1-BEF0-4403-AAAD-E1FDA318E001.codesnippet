@@ -3,23 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy block</string>
+	<string>switch case</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassInterfaceVariables</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property (nonatomic, copy) void(^&lt;#name#&gt;)(void);</string>
+	<string>switch (&lt;#expression#&gt;) {
+        case 0:{
+            
+        }break;
+        case 1:{
+            
+        }break;
+        case 2:{
+            
+        }break;
+        case 3:{
+            
+        }break;
+        case 4:{
+            
+        }break;
+        default:
+            break;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>293BB1CC-DF24-4986-A7AD-1B2FADA5A307</string>
+	<string>AF4203A1-BEF0-4403-AAAD-E1FDA318E001</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>switch 快速遍历</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>声明属性Block</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -10,16 +10,15 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UILabel *)&lt;#label name#&gt;{
-    if (_&lt;#label name#&gt; == nil) {
-        UILabel *lb = [[UILabel alloc]init];
-        lb.textColor = [UIColor colorWithHexString:BlackHighColor];
-//        lb.textAlignment = NSTextAlignmentCenter;
-        lb.font = [UIFont systemFontOfSize:15 weight:UIFontWeightBold];
-        lb.numberOfLines = 0;
-        _&lt;#label name#&gt; = lb;
+	<string>- (UILabel *)&lt;#lbname#&gt;{
+    if (_&lt;#lbname#&gt; == nil) {
+        _&lt;#lbname#&gt; = [[UILabel alloc]init];
+        _&lt;#lbname#&gt;.textColor = [UIColor colorWithHexString:BlackHighColor];
+        _&lt;#lbname#&gt;.textAlignment = NSTextAlignmentCenter;
+        _&lt;#lbname#&gt;.font = [UIFont systemFontOfSize:15 weight:UIFontWeightBold];
+        _&lt;#lbname#&gt;.numberOfLines = 0;
     }
-    return _&lt;#label name#&gt;;
+    return _&lt;#lbname#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>81FE60D4-2E6F-453F-8B1D-1417BD88E3A5</string>

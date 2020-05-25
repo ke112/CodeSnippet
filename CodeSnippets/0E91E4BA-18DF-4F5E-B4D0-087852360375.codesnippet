@@ -3,27 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy mutable array</string>
+	<string>make to super </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
 		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (NSMutableArray *)&lt;#mul array#&gt;{
-    if (_&lt;#mul array#&gt; == nil) {
-        _&lt;#mul array#&gt; = [NSMutableArray array];
-    }
-    return _&lt;#mul array#&gt;;
-}</string>
+	<string>make.top.mas_offset(&lt;#0#&gt;);
+        make.left.mas_offset(&lt;#0#&gt;);
+        make.bottom.mas_offset(-&lt;#0#&gt;);
+        make.right.mas_offset(-&lt;#0#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7687339-BDA2-4DEA-BCBD-7839042409CB</string>
+	<string>0E91E4BA-18DF-4F5E-B4D0-087852360375</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载NSMutableArray</string>
+	<string>距离父视图位置约束</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

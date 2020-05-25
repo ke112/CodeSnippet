@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>make edges to super</string>
+	<string>backgroud color</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.edges.mas_equalTo(UIEdgeInsetsMake(&lt;#margin#&gt;, &lt;#margin#&gt;, &lt;#margin#&gt;, &lt;#margin#&gt;));</string>
+	<string>backgroundColor = [UIColor randomColor];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5EF549A9-74A8-4BB0-8F39-645419A78E18</string>
+	<string>A6E2B454-F18E-4C32-BC02-2D5B83E8238A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>生成随机颜色</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>距离父视图的内边距</string>
+	<string>生成随机颜色</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

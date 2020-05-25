@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy block</string>
+	<string>make edge</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>All</string>
-		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property (nonatomic, copy) void(^&lt;#name#&gt;)(void);</string>
+	<string>make.edges.mas_offset(UIEdgeInsetsMake(0, 0, 0, 0));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>293BB1CC-DF24-4986-A7AD-1B2FADA5A307</string>
+	<string>AD399C7F-2052-40CE-B57B-C4D22DBA0866</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>距离父视图边界约束</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>声明属性Block</string>
+	<string>距离父视图边界约束</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

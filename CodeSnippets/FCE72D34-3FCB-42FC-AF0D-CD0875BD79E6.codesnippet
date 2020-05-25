@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy block</string>
+	<string>lazy multable array</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassInterfaceVariables</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property (nonatomic, copy) void(^&lt;#name#&gt;)(void);</string>
+	<string>- (NSMutableArray *)&lt;#multableArray#&gt;{
+    if (!_&lt;#multableArray#&gt;) {
+        _&lt;#multableArray#&gt; = [NSMutableArray array];
+    }
+    return _&lt;#multableArray#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>293BB1CC-DF24-4986-A7AD-1B2FADA5A307</string>
+	<string>FCE72D34-3FCB-42FC-AF0D-CD0875BD79E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>懒加载可变数组</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>声明属性Block</string>
+	<string>懒加载可变数组</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

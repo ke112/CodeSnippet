@@ -6,20 +6,19 @@
 	<string>lazy button</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIButton *)&lt;#button name#&gt;{
-    if (_&lt;#button name#&gt; == nil) {
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.titleLabel.font = [UIFont systemFontOfSize:15 weight:UIFontWeightBold];
-        [btn setTitleColor:[UIColor colorWithHexString:MainThemeColor] forState:UIControlStateNormal];
-        [btn setTitle:@"Book Again" forState:UIControlStateNormal];
-        btn.backgroundColor = [UIColor whiteColor];
-        _&lt;#button name#&gt; = btn;
+	<string>- (UIButton *)&lt;#btnName#&gt;{
+    if (_&lt;#btnName#&gt; == nil) {
+        _&lt;#btnName#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+        _&lt;#btnName#&gt;.titleLabel.font = [UIFont systemFontOfSize:15 weight:UIFontWeightBold];
+        [_&lt;#btnName#&gt; setTitleColor:[UIColor colorWithHexString:MainThemeColor] forState:UIControlStateNormal];
+        [_&lt;#btnName#&gt; setTitle:@"Book Again" forState:UIControlStateNormal];
+        _&lt;#btnName#&gt;.backgroundColor = [UIColor whiteColor];
     }
-    return _&lt;#button name#&gt;;
+    return _&lt;#btnName#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>10CD56F4-4EE0-4822-AF6C-720115BA34BF</string>

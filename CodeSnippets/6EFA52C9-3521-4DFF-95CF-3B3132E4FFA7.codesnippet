@@ -17,7 +17,7 @@
     return self;
 }
 - (void)setUI{
-    &lt;#do what#&gt;
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6EFA52C9-3521-4DFF-95CF-3B3132E4FFA7</string>

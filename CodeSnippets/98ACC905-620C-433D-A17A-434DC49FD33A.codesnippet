@@ -11,7 +11,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>///单例对象
-+ (instancetype)sharedInstance;</string>
++ (instancetype)shared;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>98ACC905-620C-433D-A17A-434DC49FD33A</string>
 	<key>IDECodeSnippetLanguage</key>
